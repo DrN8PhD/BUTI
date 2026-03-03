@@ -1260,6 +1260,9 @@ void showNewData() {
     runState = 0;
     UseStartTime = true;
   }
+  else if (receivedChar == 'Z') {
+    runState = 2;
+  }
  newData = false;
  }
 }
